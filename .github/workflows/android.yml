@@ -26,8 +26,11 @@ jobs:
       - name: Instalar dependências
         run: npm install
 
+      - name: Dar permissão ao Capacitor
+        run: chmod +x node_modules/.bin/cap
+
       - name: Sincronizar Capacitor
-        run: npx cap sync android
+        run: ./node_modules/.bin/cap sync android
 
       - name: Gerar APK
         working-directory: android
