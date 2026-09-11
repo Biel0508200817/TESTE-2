@@ -32,6 +32,9 @@ jobs:
       - name: Sincronizar Capacitor
         run: ./node_modules/.bin/cap sync android
 
+      - name: Dar permissão ao Gradle
+        run: chmod +x android/gradlew
+
       - name: Gerar APK
         working-directory: android
         run: ./gradlew assembleDebug
