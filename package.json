@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "meu-aplicativo",
   "version": "1.0.0",
@@ -13,3 +14,20 @@
     "@capacitor/cli": "^7.4.0"
   }
 }
+=======
+{
+  "name": "meu-aplicativo",
+  "version": "1.0.0",
+  "description": "Meu aplicativo Android",
+  "scripts": {
+    "build": "echo Build concluído"
+  },
+  "dependencies": {
+    "@capacitor/core": "^7.4.0"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^7.6.9",
+    "@capacitor/cli": "^7.4.0"
+  }
+}
+>>>>>>> 89419d72f9ac66afbcc4e8ba5a7acd3645ce78b3
